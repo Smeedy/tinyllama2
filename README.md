@@ -194,7 +194,7 @@ Verifying CS4237B.ASM against EEPROM . . .      Verified OKAY
 3. Make sure the correct `BLASTER` environment variable is set and `UNISOUND.COM` command is called from `AUTOEXEC.BAT`. Note that the 8-bit DMA channel is **1** and the IRQ is **7**:
 ```
 SET BLASTER=A220 I7 D1 P330 T4
-C:\UNISOUND\UNISOUND.EXE /V60 /VW60 /VF60 /VL60 /VP60 /VC0 /VM0
+C:\UNISOUND\UNISOUND.COM /V60 /VW60 /VF60 /VL60 /VP60 /VC0 /VM0
 ```
 4. Reboot the system, and you should get the following output:
 ```
